@@ -26,6 +26,8 @@ import {fethPosts} from '../actions/postActions'
     componentWillReceiveProps(nextProps){
         if(nextProps.newPost){
             this.props.posts.unshift(nextProps.newPost)
+
+            
         }
     }
 
