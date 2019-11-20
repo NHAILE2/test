@@ -8,12 +8,11 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-
-    
     <div className="App">
+    
       <PostForm/>
       <Posts/>
-      
+      <p>branch</p>
     </div>
     </Provider>
   );
